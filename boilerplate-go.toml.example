@@ -1,0 +1,15 @@
+[app]
+host = "localhost"
+port = 4040
+name = "boilerplate-go"
+secret = ""
+
+[postgre]
+is_enabled = true
+url = "postgres://username:password@host:port/ffms"
+max_idle_connections = 10
+max_open_connections = 10
+
+[redis]
+is_enabled = true
+url = "localhost:6379"
